@@ -3,7 +3,7 @@ import {
   DataTypes,
   Model,
   SQLite3Connector,
-} from "https://deno.land/x/denodb@v1.2.0/mod.ts";
+} from "https://deno.land/x/denodb@v1.4.0/mod.ts";
 
 export class User extends Model {
   static table = "users";
